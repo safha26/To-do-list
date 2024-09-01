@@ -1,0 +1,12 @@
+
+<title>Completed Task</title>
+
+<H2>
+    Completed Tasks
+</H2>
+<ul>
+    {% for task in tasks %}
+    <li>{{task.title}}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'home' %}" class="btn btn-primary">Back to To-Do List</a>
