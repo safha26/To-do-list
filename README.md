@@ -2,14 +2,14 @@ The app handles CRUD operations on tasks through views in apptodo.views: add new
 Using this app, we can add y=our day to day to-do list and mark them completed if completed. Also we can check them in the ccompleted list. 
 
 
-Set up project todo and app apptodo
+**Set up project todo and app apptodo**
 In apptodo create a model task givenn title and status as fields. 
-In Views: 
+**In Views: **
   Import Models
-  In home it receeievss task
+  In home it receeievss task    
   add_task: using POST method the tite of the task is posted.
   delete_task: Using task id we can delete the task
-  completed_task: All the completed tasks indicates all the items in Module (we use this since     we have already tagged the same in home)
+  completed_task: All the completed tasks indicates all the items in Module (we use this since     we have already tagged the same in home).    .
 
 We add home, adding task, deleting it completed task page will all be included in urls. 
 
